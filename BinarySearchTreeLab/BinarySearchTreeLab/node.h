@@ -9,7 +9,9 @@ public:
 	int data;
 	Node * left;
 	Node * right;
+	//Default constructor is declared
 	Node();
+	//Int value will passed to node constructor
 	Node(int);
 
 };
